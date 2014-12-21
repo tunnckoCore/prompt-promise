@@ -1,0 +1,64 @@
+{
+  "name": "prompt-promise",
+  "version": "0.0.0",
+  "description": "Sane CLI user-input (command prompt, confirm, multiline, password) as promises, it can be used with co@4",
+  "scripts": {
+    "lint": "jshint . && jscs . --reporter inline --esnext",
+    "with-co": "node --harmony ./examples/with-co",
+    "without-co": "node --harmony ./examples/without-co"
+  },
+  "author": {
+    "name": "Charlike Make Reagent",
+    "email": "mameto_100@mail.bg",
+    "url": "https://github.com/tunnckoCore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tunnckoCore/prompt-promise.git"
+  },
+  "keywords": [
+    "aplus",
+    "cli",
+    "co",
+    "cojs",
+    "command",
+    "command-line",
+    "command-prompt",
+    "confirm",
+    "console",
+    "esnext",
+    "generators",
+    "input",
+    "keypress",
+    "line",
+    "mask",
+    "minimal",
+    "multiline",
+    "password",
+    "pretty",
+    "promises",
+    "promises-aplus",
+    "prompt",
+    "prompts",
+    "sane",
+    "terminal",
+    "tiny",
+    "unobtrusive",
+    "user",
+    "user-input"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/tunnckoCore/prompt-promise/blob/master/license.md"
+  },
+  "dependencies": {
+    "keypress": "^0.2.1",
+    "native-or-another": "^2.0.0"
+  },
+  "devDependencies": {
+    "co": "^4.0.2",
+    "istanbul-harmony": "^0.3.1",
+    "mocha": "^2.0.1",
+    "mocha-lcov-reporter": "^0.0.1"
+  }
+}
