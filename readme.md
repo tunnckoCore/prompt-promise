@@ -2,7 +2,7 @@
 [![mit license][license-img]][license-url]
 [![deps status][daviddm-img]][daviddm-url]
 
-> Sane CLI user-input (command prompt, confirm, multiline, password) as promises, it can be used with [co@4][co@4]
+> Sane CLI user-input (command prompt, confirm, multiline, password) as promises, it can be used with [co@4][co]
 
 ## Install
 ```bash
