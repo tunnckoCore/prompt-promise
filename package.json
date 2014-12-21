@@ -1,6 +1,6 @@
 {
   "name": "prompt-promise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sane CLI user-input (command prompt, confirm, multiline, password) as promises, it can be used with co@4",
   "scripts": {
     "lint": "jshint . && jscs . --reporter inline --esnext",
