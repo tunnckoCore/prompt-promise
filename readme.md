@@ -2,7 +2,7 @@
 [![mit license][license-img]][license-url]
 [![deps status][daviddm-img]][daviddm-url]
 
-> Sane CLI user-input (command prompt, confirm, multiline, password) as promises, it can be used with co@4
+> Sane CLI user-input (command prompt, confirm, multiline, password) as promises, it can be used with [co@4][co@4]
 
 ## Install
 ```bash
@@ -61,7 +61,7 @@ co(function * genPrompt() {
 
 
 ## License [![MIT license][license-img]][license-url]
-Copyright (c) 2014 [Charlike Mike Reagent][contrib-more], [contributors][contrib-graf]. 
+Copyright (c) 2014 [Charlike Mike Reagent][contrib-more], [contributors][contrib-graf].   
 Copyright (c) 2014 [TJ Holowaychuk](https://github.com/tj), [contributors][contrib-graf].  
 Released under the [`MIT`][license-url] license.
 
@@ -88,6 +88,8 @@ Released under the [`MIT`][license-url] license.
 
 [contrib-more]: http://j.mp/1stW47C
 [contrib-graf]: https://github.com/tunnckoCore/prompt-promise/graphs/contributors
+
+[co]: https://github.com/tj/co
 
 ***
 
