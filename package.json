@@ -3,9 +3,12 @@
   "version": "1.0.2",
   "description": "Sane CLI user-input (command prompt, confirm, multiline, password) as promises, it can be used with co@4",
   "scripts": {
-    "lint": "jshint . && jscs . --reporter inline --esnext",
+    "lint": "jshint index.js && jscs index.js --reporter inline",
+    "test": "mocha",
+    "test-cov": "istanbul cover _mocha",
+    "test-travis": "istanbul cover _mocha --report lcovonly",
     "with-co": "node --harmony ./examples/with-co",
-    "without-co": "node --harmony ./examples/without-co"
+    "without-co": "node ./examples/without-co"
   },
   "author": {
     "name": "Charlike Make Reagent",
