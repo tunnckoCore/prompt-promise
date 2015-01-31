@@ -52,8 +52,8 @@
     "url": "https://github.com/tunnckoCore/prompt-promise/blob/master/license.md"
   },
   "dependencies": {
-    "keypress": "^0.2.1",
-    "native-or-another": "^2.0.0"
+    "keypress": "~0.2.1",
+    "native-or-another": "~2.0.0"
   },
   "devDependencies": {
     "bluebird": "^2.4.1",
