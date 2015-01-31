@@ -3,14 +3,14 @@
 > Sane CLI user-input (command prompt, confirm, multiline, password) as promises, it can be used with [co@4][co]
 
 ## Install
-```bash
-npm install prompt-promise
+```
+npm i --save prompt-promise
 ```
 
 ## Run examples
-```bash
-npm run-script with-co
-npm run-script without-co
+```
+npm run with-co
+npm run without-co
 ```
 
 ## Usage
@@ -19,10 +19,16 @@ npm run-script without-co
 ```js
 var co = require('co');
 var prompt = require('prompt-promise');
+var res = [];
 
 prompt('username: ')
-.then(function fulfilled(val) {
-  console.log('response:', val);
+.then(function username(val) {
+  res.push(val);
+  return prompt.password('password: ');
+})
+.then(function pasword(val) {
+  res.push(val);
+  console.log(res);
   prompt.done();
 })
 .catch(function rejected(err) {
