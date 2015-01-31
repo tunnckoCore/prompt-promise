@@ -1,4 +1,4 @@
-## [![npm versi][npmjs-img]][npmjs-url] [![mit license][license-img]][license-url] [![deps status][daviddm-img]][daviddm-url]
+## [![npm][npmjs-img]][npmjs-url] [![mit license][license-img]][license-url] [![build status][travis-img]][travis-url] [![coverage status][coveralls-img]][coveralls-url] [![deps status][daviddm-img]][daviddm-url]
 
 > Sane CLI user-input (command prompt, confirm, multiline, password) as promises, it can be used with [co@4][co]
 
