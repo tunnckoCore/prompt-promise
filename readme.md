@@ -59,7 +59,7 @@ co(function * genPrompt() {
 
 
 ## License [![MIT license][license-img]][license-url]
-Copyright (c) 2014 [Charlike Mike Reagent][contrib-more], [contributors][contrib-graf].   
+Copyright (c) 2014-2015 [Charlike Mike Reagent][contrib-more], [contributors][contrib-graf].   
 Copyright (c) 2014 [TJ Holowaychuk](https://github.com/tj), [contributors][contrib-graf].  
 Released under the [`MIT`][license-url] license.
 
@@ -87,8 +87,8 @@ Released under the [`MIT`][license-url] license.
 [contrib-more]: http://j.mp/1stW47C
 [contrib-graf]: https://github.com/tunnckoCore/prompt-promise/graphs/contributors
 
-[co]: https://github.com/tj/co
-
 ***
 
-_Powered and automated by [readdirp + hogan.js](https://github.com/tunnckoCore), December 21, 2014_
+_Powered and automated by [kdf](https://github.com/tunnckoCore), January 31, 2015_
+
+[co]: https://github.com/tj/co
