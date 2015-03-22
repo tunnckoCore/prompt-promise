@@ -25,6 +25,7 @@ prompt('username: ')
   return prompt.confirm('Is this ok? (yes) ');
 })
 .then(function confirmResponse(val) {
+  result.push(val);
   console.log('response:', result);
   console.log('Done! :)');
 });
