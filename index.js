@@ -32,7 +32,7 @@ function prompt(msg, opts) {
       process.stdin.pause();
       return;
     }
-    defer.resolve(val);
+    defer.resolve(val.trim());
     process.stdin.pause();
   }).resume()
 
@@ -104,10 +104,12 @@ exports.password = function(msg, opts) {
       return;
     }
     if (key && key.ctrl && key.name == 'c') {
+      console.log();
       process.exit(0);
       return;
     }
     if (key && key.name == 'return') {
+      console.log();
       process.stdin.pause();
       process.stdin.removeAllListeners('keypress');
       process.stdin.setRawMode(false);

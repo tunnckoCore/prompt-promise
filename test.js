@@ -9,6 +9,18 @@
 
 var promptPromise = require('./index');
 
-describe('prompt-promise', function() {
-  // body
-});
+// describe('prompt-promise', function() {
+//   // body
+// });
+
+var res = [];
+
+promptPromise('username: ')
+.then(function username(val) {
+  res.push(val);
+  return promptPromise.password('password: ');
+})
+.then(function pasword(val) {
+  res.push(val);
+  console.log(res);
+})
