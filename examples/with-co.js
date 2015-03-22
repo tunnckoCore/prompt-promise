@@ -10,11 +10,6 @@
 var co = require('co');
 var prompt = require('../index');
 
-function catched(err) {
-  console.log('error:', err);
-  prompt.end();
-}
-
 co(function * prompting() {
   var confirm = prompt.confirm;
   var password = prompt.password;
@@ -29,6 +24,4 @@ co(function * prompting() {
 })
 .then(function fulfilled(val) {
   console.log('response:', val);
-  prompt.end();
-})
-.catch(catched);
+});

@@ -27,9 +27,4 @@ prompt('username: ')
 .then(function confirmResponse(val) {
   console.log('response:', result);
   console.log('Done! :)');
-  prompt.end();
-})
-.catch(function errorHandler(err) {
-  console.log('error:', err);
-  prompt.end();
 });
