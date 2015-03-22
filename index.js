@@ -39,10 +39,6 @@ function prompt(msg, opts) {
   return defer.promise;
 }
 
-exports.finish = exports.done = exports.end = function() {
-  return process.stdin.pause();
-}
-
 /**
  * Prompt for multi-line user input.
  */
