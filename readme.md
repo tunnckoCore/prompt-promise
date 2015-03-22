@@ -29,12 +29,7 @@ prompt('username: ')
 .then(function pasword(val) {
   res.push(val);
   console.log(res);
-  prompt.done();
 })
-.catch(function rejected(err) {
-  console.log('error:', err.stack);
-  prompt.finish();
-});
 
 // or with `co@4`
 co(function * genPrompt() {
@@ -45,14 +40,8 @@ co(function * genPrompt() {
 })
 .then(function fulfilled(array) {
   console.log('response:', array);
-  prompt.end();
 })
-.catch(function rejected(err) {
-  console.log('error:', err.stack);
-  process.stdin.pause();
-});
 ```
-`.end()`, `.done()`, `.finish()` are just aliases for `process.stdin.pause();` its required, nah..
 
 
 ## Author
