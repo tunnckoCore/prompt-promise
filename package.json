@@ -55,6 +55,7 @@
     "url": "https://github.com/tunnckoCore/prompt-promise/blob/master/license.md"
   },
   "dependencies": {
+    "chalk": "^2.0.1",
     "keypress": "~0.2.1",
     "native-or-another": "~2.0.0"
   },
