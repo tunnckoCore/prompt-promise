@@ -57,7 +57,7 @@
   "dependencies": {
     "chalk": "^2.0.1",
     "keypress": "~0.2.1",
-    "native-or-another": "~2.0.0"
+    "native-or-another": "~5.0.1"
   },
   "devDependencies": {
     "bluebird": "^2.4.1",
